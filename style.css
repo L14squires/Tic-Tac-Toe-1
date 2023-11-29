@@ -1,0 +1,86 @@
+body {
+     font-family: "Arial", sans-serif;
+     background-image: url("https://www.shutterstock.com/shutterstock/videos/33849220/thumb/12.jpg?ip=x480"); /*CORREGIDO*/
+}
+section {
+     text-align: center;
+}
+.gameContainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.containerX{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+}
+
+.containerO{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+}
+
+.containerGame{
+     display: grid;
+     grid-template-columns: repeat(3, auto);
+     width: 306px;
+     margin: 50px auto;
+}
+
+.cell {
+     font-family: "Permanent Marker", cursive;
+     width: 100px;
+     height: 100px;
+     box-shadow: 0 0 0 1px #333333;
+     border: 1px solid #333333;
+     cursor: pointer;
+     line-height: 100px;
+     font-size: 60px;
+}
+
+.resetGame {
+  display:flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 15px;
+  border: 2px solid;
+  border-radius:50%;
+  margin-bottom: 50px;
+  box-shadow: 0 0 5px 3px white;
+  color: White;
+  text-shadow: 2px 2px 4px #E628C3;
+  font-size: 20px; 
+  font-family: Consolas;
+  background-image: url("https://www.shutterstock.com/shutterstock/videos/33849220/thumb/12.jpg?ip=x480"); /*CORREGIDO*/
+}
+
+.resetGame:hover{
+  cursor: pointer;
+  transition: .5s;
+}
+
+.gameTitle {
+  font-family: "Neon1", Consolas;
+  color: White;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px #E628C3;
+}
+
+.gameStatus {
+  font-family: "Neon2", Consolas;
+  color: #7df9ff;
+  font-size: 35px;
+  text-shadow: 2px 2px 4px #268FD3;
+}
+
+.cell {
+  color: white;
+  border-color: white;
+  border-width: 1.5px;
+}
+
